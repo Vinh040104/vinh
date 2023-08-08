@@ -1,0 +1,402 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="font/css/font-awesome.min.css">
+    <title>Lab 7</title>
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <div class="container">
+                <div class="tren">
+                    <a href="#">HELP</a>
+                    <a href="#">0876523806</a>
+                </div>
+                <div class="duoi">
+                    <a href="#">MY ACCOUNT</a>
+                    <a href="#">SIGN IN</a>
+                    <a href="#">CREATE ACCOUNT</a>
+                </div>
+            </div>
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#"><img src="images/logo-3.png" alt=""></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Dropdown
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Dropdown
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Dropdown
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                </li>
+                            </ul>
+                            <form class="d-flex">
+                                <a href="cart.html" id="cart"><i class="fa fa-shopping-cart" aria-hidden="true"
+                                        style=" text-decoration: none!important;"></i> Cart
+                                    ($210.00)</a>
+                                <!--                            <button class="btn btn-outline-success" type="submit">Search</button>-->
+                            </form>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <section class="h-100 h-custom" style="background-color: white;">
+            <p style="font-weight: bold; font-size: 30px"><i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                SHOPPING CART</p>
+            <div class="col-12">
+                <div class="card card-registration card-registration-2">
+                    <div class="card-body p-0">
+                        <div class="row g-0">
+                            <div class="col-lg-8">
+                                <section class="h-100 h-custom">
+                                    <div class="container h-100 py-5">
+                                        <div class="row d-flex justify-content-center align-items-center h-100">
+                                            <div class="col-cart">
+
+                                                <div class="table-responsive">
+                                                    <table class="table">
+                                                        <thead>
+                                                            <tr>
+                                                                <th scope="col" class="h5">Shopping Bag</th>
+                                                                <th scope="col">Format</th>
+                                                                <th scope="col">Quantity</th>
+                                                                <th scope="col">Price</th>
+                                                                <!--                                                                <th scope="col">Remove</th>-->
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <th scope="row">
+                                                                    <div class="d-flex align-items-center">
+                                                                        <a href="">
+                                                                            <i class="fa fa-trash"
+                                                                                aria-hidden="true"></i>
+                                                                        </a>
+                                                                        <img src="/images/ivivu-ho-ta-dung-360x225.jpg"
+                                                                            class="img-fluid rounded-3"
+                                                                            style="width: 120px;" alt="Book">
+                                                                        <div class="flex-column ms-4">
+                                                                            <p class="mb-2">Thinking, Fast and Slow</p>
+                                                                            <p class="mb-0">Daniel Kahneman</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </th>
+                                                                <td class="align-middle">
+                                                                    <p class="mb-0" style="font-weight: 500;">
+                                                                        Digital</p>
+                                                                </td>
+                                                                <td class="align-middle">
+                                                                    <div class="d-flex flex-row">
+                                                                        <button class="btn btn-link px-2"
+                                                                            onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                                                                            <i class="fa fa-minus"
+                                                                                aria-hidden="true"></i></button>
+
+                                                                        <input id="form1" min="0" name="quantity"
+                                                                            value="2" type="number"
+                                                                            class="form-control form-control-sm"
+                                                                            style="width: 50px;" />
+
+                                                                        <button class="btn btn-link px-2"
+                                                                            onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                                                                            <i class="fa fa-plus"
+                                                                                aria-hidden="true"></i>
+                                                                        </button>
+                                                                    </div>
+                                                                </td>
+                                                                <td class="align-middle">
+                                                                    <p class="mb-0" style="font-weight: 500;">$9.99</p>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th scope="row" class="border-bottom-0">
+                                                                    <div class="d-flex align-items-center">
+                                                                        <a href="">
+                                                                            <i class="fa fa-trash"
+                                                                                aria-hidden="true"></i>
+                                                                        </a>
+                                                                        <img src="/images/ivivu-ho-ta-dung-360x225.jpg"
+                                                                            class="img-fluid rounded-3"
+                                                                            style="width: 120px;" alt="Book">
+                                                                        <div class="flex-column ms-4">
+                                                                            <p class="mb-2">Homo Deus: A Brief History
+                                                                                of Tomorrow</p>
+                                                                            <p class="mb-0">Yuval Noah Harari</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </th>
+                                                                <td class="align-middle border-bottom-0">
+                                                                    <p class="mb-0" style="font-weight: 500;">
+                                                                        Paperback</p>
+                                                                </td>
+                                                                <td class="align-middle border-bottom-0">
+                                                                    <div class="d-flex flex-row">
+                                                                        <button class="btn btn-link px-2"
+                                                                            onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                                                                            <i class="fa fa-minus"
+                                                                                aria-hidden="true"></i></button>
+
+                                                                        <input id="form1" min="0" name="quantity"
+                                                                            value="1" type="number"
+                                                                            class="form-control form-control-sm"
+                                                                            style="width: 50px;" />
+
+                                                                        <button class="btn btn-link px-2"
+                                                                            onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                                                                            <i class="fa fa-plus"
+                                                                                aria-hidden="true"></i>
+                                                                        </button>
+                                                                    </div>
+                                                                </td>
+                                                                <td class="align-middle border-bottom-0">
+                                                                    <p class="mb-0" style="font-weight: 500;">$13.50</p>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                            <div class="col-lg-4 bg-grey">
+                                <div class="p-5">
+                                    <h3 class="fw-bold mb-5 mt-2 pt-1">Summary</h3>
+                                    <hr class="my-4">
+
+                                    <div class="d-flex justify-content-between mb-4">
+                                        <h5 class="text-uppercase">items 3</h5>
+                                        <h5>€ 132.00</h5>
+                                    </div>
+
+                                    <h5 class="text-uppercase mb-3">Shipping</h5>
+
+                                    <div class="mb-4 pb-2">
+                                        <select class="select">
+                                            <option value="1">Standard-Delivery- €5.00</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                            <option value="4">Four</option>
+                                        </select>
+                                    </div>
+
+                                    <h5 class="text-uppercase mb-3">Give code</h5>
+
+                                    <div class="mb-5">
+                                        <div class="form-outline">
+                                            <input type="text" id="form3Examplea2"
+                                                class="form-control form-control-lg" />
+                                            <label class="form-label" for="form3Examplea2">Enter your code</label>
+                                        </div>
+                                    </div>
+
+                                    <hr class="my-4">
+
+                                    <div class="d-flex justify-content-between mb-5">
+                                        <h5 class="text-uppercase">Total price</h5>
+                                        <h5>€ 137.00</h5>
+                                    </div>
+
+                                    <button type="button" class="btn btn-dark btn-block btn-lg"
+                                        data-mdb-ripple-color="dark">Register
+                                    </button>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer -->
+        <footer class="text-center text-lg-start bg-white text-muted">
+            <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+                <div class="container text-center text-md-start mt-5">
+                    <!-- Grid row -->
+                    <div class="row mt-3">
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                            <!-- Content -->
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                <i class="fas fa-gem me-3 text-secondary"></i>SUPPORT
+                            </h6>
+                            <p>
+                                Xin chao cac ban I love you!
+                                Xin chao cac ban I love you!
+                                Xin chao cac ban I love you!
+                            </p>
+                            <p>
+                                <i class="fa fa-phone" aria-hidden="true"></i>
+                                08765-32-806
+                            </p>
+                            <p>
+                                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                                sidvph46507@fpt.edu.vn
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                SHOP
+                            </h6>
+                            <p>
+                                <a href="#!" class="text-reset">Men's</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Women's</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Kid's</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Shoses</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Gift Cards</a>
+                            </p>
+                        </div>
+                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                Information
+                            </h6>
+                            <p>
+                                <a href="#!" class="text-reset">Question</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Order Status</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Sizing Charts</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Return Policy</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Contact Us</a>
+                            </p>
+
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                MY ACCOUNT
+                            </h6>
+                            <p>
+                                <a href="#!" class="text-reset">My Account</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">My Address</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Wish List</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Order List</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Order Status</a>
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold mb-4" style="text-align: center">Stay in touch</h6>
+                            <input type="text" placeholder="                       Email"
+                                style="margin: 10px; width: 250px;height: 45px;border-radius: 5px;border: 1px solid #ccc">
+                            <button
+                                style="margin: 10px; width: 250px; font-size: 20px; background: green;color: white;font-weight: bold;border:0;height: 45px;border-radius: 5px">
+                                SUBCRIBE <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                            </button>
+                            <p style="display: flex; justify-content: space-between; gap: 5px;margin-top: 10px;">
+                                <i class="fa fa-facebook-official" aria-hidden="true" style="font-size: 40px"></i>
+                                <i class="fa fa-twitter-square" aria-hidden="true" style="font-size: 40px"></i>
+                                <i class="fa fa-google-plus-square" aria-hidden="true" style="font-size: 40px"></i>
+                                <i class="fa fa-youtube-square" aria-hidden="true" style="font-size: 40px"></i>
+                                <i class="fa fa-git-square" aria-hidden="true" style="font-size: 40px"></i>
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+                    </div>
+                    <!-- Grid row -->
+                </div>
+            </section>
+
+            <!-- Copyright -->
+            <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+                © 2023 Copyright:
+                <a class="text-reset fw-bold" href="">isnav.com</a>
+            </div>
+            <!-- Copyright -->
+        </footer> <!-- Footer -->
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,170 @@
+header {
+    background: #36B87D;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tren, .duoi {
+    display: flex;
+}
+
+.duoi a, .tren a {
+    text-decoration: none;
+    margin: 5px;
+    color: white;
+}
+
+/*.duoi a:hover, .tren a:hover {*/
+/*    background-color: #124f12;*/
+/*    margin-top: 0;*/
+/*    margin-bottom: 0;*/
+/*    padding-top: 5px;*/
+/*}*/
+
+.navbar {
+    width: 100%;
+    background: transparent !important;
+}
+
+.nav-link {
+    color: white !important;
+    background: transparent !important;
+}
+
+.sanPham {
+    margin-top: 50px;
+    text-align: center;
+}
+
+body {
+    background: #ccc;
+}
+
+.col {
+    background: white;
+    padding: 10px;
+    border: 10px solid #ccc;
+}
+
+.noi-dung {
+    display: grid;
+    text-align: center;
+    font-size: 47px;
+
+}
+
+.gach {
+    opacity: 40%;
+}
+
+.new-sale {
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+    display: flex;
+}
+
+.new-sale span {
+    display: block;
+}
+
+.new {
+    background: limegreen;
+    padding: 5px 10px;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: -10px;
+}
+
+.sale, .sale-mot {
+    background: red;
+    border-radius: 0 5px 5px 0;
+    color: white;
+    padding: 5px 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.sale-mot {
+    margin-left: -10px;
+}
+
+.thumb {
+    position: relative;
+}
+
+.col a {
+    display: block;
+    margin: 0 auto;
+    width: 120px;
+    background: limegreen;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    height: 35px;
+    line-height: 35px;
+}
+
+.col a:hover {
+    background: red;
+}
+
+.container {
+    display: grid;
+    grid-template-areas:
+            "tren"
+            "duoi";
+    text-align: center;
+    justify-content: center;
+}
+
+.tieu-de {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+#cart, .tren a, .duoi a, #navbarSupportedContent ul li a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+
+#cart:hover, .tren a:hover, .duoi a:hover, #navbarSupportedContent ul li a:hover {
+    background: green !important;
+}
+
+.col-cart {
+    border: 0;
+    margin: 20px;
+}
+
+.mb-2, .mb-0 {
+    text-align: left;
+}
+
+.align-items-center {
+    padding: 30px;
+    align-items: center !important;
+}
+
+.dropdown-item {
+    color: black !important;
+    /*margin-top: 0;*/
+    padding-top: 0;
+}
+
+
+@media (min-width: 768px) {
+
+}
+
